@@ -1,0 +1,24 @@
+{
+  "name": "@arena/engine",
+  "version": "1.0.0",
+  "description": "Pure, framework-agnostic availability engine for the Sportomic arena (overlap-aware court booking).",
+  "type": "module",
+  "main": "src/index.js",
+  "module": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./overlapMap": "./src/overlapMap.js",
+    "./availabilityEngine": "./src/availabilityEngine.js"
+  },
+  "files": [
+    "src"
+  ],
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage"
+  },
+  "devDependencies": {
+    "vitest": "^2.1.8"
+  }
+}
