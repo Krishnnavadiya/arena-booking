@@ -399,6 +399,3 @@ Run `npm run dev` and open http://localhost:5173. The interface has:
 - **Physical Turf Layout** — visual overlap of large courts over small courts.
 - **Booking History** — a timestamped log of every action.
 
-> To capture screenshots for documentation, save images into `docs/screenshots/`
-> and reference them here, e.g. `![Home](docs/screenshots/home.png)`.
-```
